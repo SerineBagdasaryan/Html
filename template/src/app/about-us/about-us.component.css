@@ -1,0 +1,50 @@
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: gainsboro;
+}
+.about h5{
+  padding-top: 20px;
+}
+.about1 {
+  color: #34495e;
+  width: 400px;
+  font-size: 10px;
+}
+.team {
+  color: #34495e;
+   margin: 0;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+ .company {
+   display: flex;
+   justify-content: space-around;
+   background-color: gainsboro;
+ }
+div.gallery {
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+@media screen and (max-width: 700px) {
+  .company ,.gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  text-align: center;
+  background-color: white;
+}

@@ -1,0 +1,23 @@
+.portfolio {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+.portfolio1 {
+  margin-top: 20px;
+  float: left;
+  width: 250px;
+}
+
+
+div.portfolio1 img {
+
+  width: 220px ;
+  height: 150px;
+}
+
+div.desc {
+  text-align: center;
+  background-color: white;
+}

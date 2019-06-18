@@ -1,0 +1,117 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+  height: 180px;
+  background-color: white;
+  color: #666666;
+  padding-top: 80px;
+}
+
+@media screen and (max-width: 700px) {
+  .home,.home1 {
+    flex-direction: column;
+    height: 230px;
+
+  }
+}
+@media screen and (max-width: 700px) {
+  .home,div button {
+    flex-direction: column;
+    margin-bottom: 10px;
+
+  }
+}
+
+.home2 {
+ width: 350px;
+}
+@media screen and (max-width: 700px) {
+  .home2 {
+    flex-direction: column;
+    height: 150px;
+    padding-top: 20px;
+  }
+}
+
+.img1{
+  width: 250px;
+  height: 150px;
+}
+
+@media screen and (max-width: 700px) {
+  .img1 {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 700px) {
+ .home4 ,.img1, img {
+   padding-right: 20px;
+   text-align: center;
+   height: 150px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .home4 {
+  height: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .home5 ,div {
+    flex-direction: column;
+  }
+}
+
+
+.home4 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #2dcc70;
+}
+
+.home4 img {
+  width: 200px;
+  height: 100px;
+}
+
+.home1 {
+  text-align: center;
+  height: 120px;
+  background-color: #333333;
+  color: white;
+}
+.home1,h5{
+  padding-top: 20px;
+}
+.hom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #333333;
+
+}
+.home3 {
+  text-align: center;
+  height: 120px;
+  background-color: #2dcc70;
+}
+
+.home5 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: white;
+  color: #666666;
+}
+
+.home5 img {
+  width: 150px;
+  height: 100px;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+}
